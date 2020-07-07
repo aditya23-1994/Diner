@@ -8,10 +8,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/aditya23-1994/Diner.git"
-  },
+
   "author": "aditya",
   "license": "ISC",
   "bugs": {
