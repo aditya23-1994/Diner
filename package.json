@@ -1,0 +1,38 @@
+{
+  "name": "diner",
+  "version": "1.0.0",
+  "description": "food project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aditya23-1994/Diner.git"
+  },
+  "author": "aditya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditya23-1994/Diner/issues"
+  },
+  "homepage": "https://github.com/aditya23-1994/Diner#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "install": "^0.13.0",
+    "npm": "^6.14.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bable-loader": "0.0.1-security",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.5"
+  }
+}
